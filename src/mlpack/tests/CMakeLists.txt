@@ -136,7 +136,7 @@ add_executable(mlpack_test
   main_tests/preprocess_split_test.cpp
   main_tests/random_forest_test.cpp
   main_tests/softmax_regression_test.cpp
-)
+        main_tests/kmeans_test.cpp)
 
 # Link dependencies of test executable.
 target_link_libraries(mlpack_test
